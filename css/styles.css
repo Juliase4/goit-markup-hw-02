@@ -1,0 +1,60 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* --- HEADER --- */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.footer-logo {
+  color: #f4f4fd;
+}
+
+.bit-logo {
+  color: #4d5ae5;
+}
+
+.navigation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+/* --- HERO --- */
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+/* --- OUR ADVANTAGES --- */
+
+/* --- TEAM --- */
+.team {
+  background-color: #f4f4fd;
+}
+
+/* --- PORTFOLIO --- */
+
+/* --- FOOTER --- */
+.footer {
+  background-color: #2e2f42;
+}
