@@ -16,6 +16,7 @@ li {
 h2 {
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -23,6 +24,7 @@ h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -31,8 +33,10 @@ h3 {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.2;
-  color: #2e2f42;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .footer-logo {
@@ -40,22 +44,30 @@ h3 {
 }
 
 .bit-logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .navigation-list-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.contacts-list-item {
+.navigation-list-item:hover,
+.navigation-list-item:focus {
+  color: #404bbf;
+}
+
+address {
   font-style: normal;
 }
 
-.navigation-list-item:hover,
-.navigation-list-item:focus,
+.contacts-list-item {
+  letter-spacing: 0.02em;
+}
+
 .contacts-list-item:hover,
 .contacts-list-item:focus {
   color: #404bbf;
@@ -67,13 +79,19 @@ h3 {
 }
 
 .hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
@@ -95,6 +113,7 @@ h3 {
 .advantages-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* --- TEAM --- */
@@ -102,15 +121,31 @@ h3 {
   background-color: #f4f4fd;
 }
 
+.team-list-item {
+  background-color: #ffffff;
+}
+
+.team-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
 .team-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* --- PORTFOLIO --- */
+.portfolio-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* --- FOOTER --- */
@@ -118,8 +153,17 @@ h3 {
   background-color: #2e2f42;
 }
 
+.footer-logo {
+  color: #4d5ae5;
+}
+
+.bitf-logo {
+  color: #f4f4fd;
+}
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
